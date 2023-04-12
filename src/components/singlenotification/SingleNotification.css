@@ -1,0 +1,12 @@
+.sender-nme-name-sty {
+  font-weight: 500;
+}
+
+.spn-cls-dv-in-grp-inv-ite {
+  border-radius: 50px;
+  color: white;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  padding: 5px 10px;
+  font-size: 12px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,22 @@
+.add-cls-msg-bx-disp-outer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+}
+.Adept-chat-disp-cls-ou-se-c-co-mp {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  position: relative;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.xtra-dv-cls-thr-in {
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}

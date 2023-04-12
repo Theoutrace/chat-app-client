@@ -1,0 +1,160 @@
+.chat-disp-outer-card-comp {
+  background-color: none;
+  border-radius: 10px;
+  position: relative;
+  height: 100%;
+}
+
+.message-box-cntnr-disp {
+  padding-bottom: 100px;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  background-color: #2a529800;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.message-component-container-user-right {
+  width: 100%;
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.message-component-container-receiver-left {
+  width: 100%;
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.component-container-user-right-inner {
+  background-color: #6fadec;
+  min-height: 85px;
+  max-width: 80%;
+  display: flex;
+  border-radius: 20px 20px 5px 20px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  position: relative;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
+.component-container-user-right-inner h6 {
+  font-size: 1.2rem;
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px 10px 10px 20px;
+  color: #ffffff;
+}
+
+.component-container-user-right-inner p {
+  font-size: 12px;
+  margin: 5px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  right: 3px;
+}
+
+.component-container-user-left-inner {
+  background-color: #757678;
+  min-height: 85px;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px 20px 20px 5px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  position: relative;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.component-container-user-left-inner h6 {
+  font-size: 1.2rem;
+  margin: 5px;
+  margin-top: 10px;
+  padding: 10px 20px 10px 10px;
+}
+
+.component-container-user-left-inner p {
+  font-size: 12px;
+  margin: 5px;
+  color: rgb(244, 239, 239);
+  position: absolute;
+  bottom: 0px;
+  left: 3px;
+}
+.component-container-user-left-inner .user-name-cls-msg-sngl {
+  padding: 2px 10px;
+  border-radius: 10px;
+  text-align: right;
+  position: absolute;
+  left: -10px;
+  bottom: -25px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.add-cls-ad-non-existent-group-case {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.add-cl-scl-link-download-url {
+  background-color: #1976d2;
+  border-radius: 12px;
+  width: 180px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  height: 50px;
+  color: inherit;
+  font-weight: 400;
+}
+
+.add-cl-scl-link-download-url:hover {
+  background-color: white;
+  color: #1976d2;
+  font-weight: 500;
+}

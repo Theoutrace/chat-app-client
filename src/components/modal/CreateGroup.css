@@ -1,0 +1,23 @@
+.modal-container-outer {
+  background-color: rgba(0, 0, 0, 0.548);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mdl-inr-cnt-nr {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 6;
+  background: rgba(0, 0, 0, 0.24);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.2px);
+  -webkit-backdrop-filter: blur(9.2px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

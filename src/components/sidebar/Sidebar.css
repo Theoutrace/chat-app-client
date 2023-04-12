@@ -1,0 +1,54 @@
+.sidebar-conp-out-er-conp {
+  background-color: white;
+  height: 100%;
+  margin-right: 5px;
+  border-radius: 10px;
+  flex-grow: 1;
+  position: relative;
+  top: 0px;
+}
+
+.sidebar-box-bx-in-er-conp {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+}
+
+.additional-cls-css-sidebar-header-tp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-cnt-container-div {
+  position: relative;
+  top: 5px;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.notifi-dot-cls-img {
+  position: absolute;
+  top: 16px;
+  z-index: 10;
+  width: 12px;
+  left: 34px;
+}
+
+.not-ifi-cation-container-all-side-bar {
+  background-color: rgba(235, 241, 239, 0);
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  max-height: 30vh;
+  overflow-y: scroll;
+  border-radius: 8px;
+  width: 100%;
+}

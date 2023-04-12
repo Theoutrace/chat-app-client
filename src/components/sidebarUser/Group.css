@@ -1,0 +1,16 @@
+.user-single-sidebr-outer-contnr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-single-sidebr-outer-contnr h6 {
+  font-size: medium;
+  color: grey;
+}
+
+.user-single-sidebr-outer-contnr p {
+  font-size: 12px;
+  color: green;
+  font-weight: 400;
+}
